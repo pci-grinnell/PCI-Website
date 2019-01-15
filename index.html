@@ -112,10 +112,10 @@
             <img class="card-img-top" src="image/pexels-photo-586339.jpeg" alt="">
             <div class="card-body">
               <h4 class="card-title">Reccomended Resources</h4>
-              <p class="card-text">Coming Soon</p>
+              <p class="card-text">Reading financial books, papers, and news is the best way to become familiar with investment terminology and opportunities.</p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Read</a>
+            <div class="card-footer" id="readButton">
+              <a href="#resources" onClick="showResources()" class="btn btn-primary">Read</a>
             </div>
           </div>
         </div>
@@ -134,7 +134,50 @@
 
       </div>
       <!-- /.row -->
-
+  <div id="resources" class="row">
+      <div class="col-sm-12 my-4">
+          <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Reccomended Resources, in no particular order</h4>
+              <p>Books</p>
+              <ul>
+                  <li>(Textbook) Investment Banking, Joshua Rosenbaum & Joshua Pearl</li>
+                  <li>(Textbook) Security Analysis, Benjamin Graham & David Dodd</li>
+                <li>The Intelligent Investor, Benjamin Graham</li>
+                <li>The Most Important Thing, Howard Marks</li>
+                <li>The Complete Investor, Charlie Munger</li>
+              <li>A Random Walk Down Wall Street, Burton Malkiel</li>
+              <li>Shareholder Letters, Warren Buffett</li>
+              <li>Irrational Exuberance, Robert Shiller</li>
+             <li>Inside the Black Box, Rishi Narang</li>
+              <li>The Signal and the Noise, Nate Silver</li>
+              <li>(Narrative) More Money Than God, Sebastian Mallaby</li>
+                <li>(Narrative) The Quants, Scott Patterson</li>
+                <li>(Narrative) Flash Boys, Michael Lewis</li>
+                <li>(Narrative) The Snowball, Alice Schroeder</li>
+                <li>(Narrative) Barbarians at the Gate, Bryan Burrough & John Helyar</li>
+                <li>(Narrative) Liar’s Poker, Michael Lewis</li>
+                <li>(Narrative) Too Big to Fail, Andrew Sorkin</li>
+                <li>(Narrative) The Big Short, Michael Lewis</li>
+             </ul>
+             <p>News & Blogs</p>
+             <ul>
+                 <li>Bloomberg</li>
+                 <li>Wall Street Journal</li>
+                 <li>Value Investors Club</li>
+                 <li>Musings on Markets, Aswath Damodaran</li>
+            </ul>
+            <p>More</p>
+            <ul>
+                <li>Bloomberg Terminal (Burling)</li>
+                <li>Quantopian</li>
+                <li>Bloomberg Market Concepts (Short Course)</li>
+            </ul>
+          </div>
+      </div>
+  </div>
+</div>
+  <!-- /.row -->
   <div class="row">
     <div class="col-lg-12 card my-header-red" id="members">
       <h2 class="my-4">PCI Membership</h2>
@@ -286,7 +329,19 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showResources() {
+            $('#resources').show()
+            document.getElementById("readButton").innerHTML = '<a href="#members" onClick="hideResources()" class="btn btn-primary">Hide</a>'
+        }
 
+        function hideResources() {
+            $('#resources').hide()
+            document.getElementById("readButton").innerHTML = '<a href="#resources" onClick="showResources()" class="btn btn-primary">Read</a>'
+        }
+
+        window.onload = hideResources()
+    </script>
   </body>
 
 </html>
