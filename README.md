@@ -8,9 +8,14 @@ PCI consists of a diverse collection of students. Members include students of al
 
 The key purpose of PCI is to educate students. We also bring in guest speakers such as professors, alumni, and other people from around the community who have experience in finance, accounting, investment management and mathematics.
 
-[The website](https://pioneercapitalinvestments.com) exists to advertise the group to potential members and record the group's activities.
+[The website](https://pci-grinnell.github.io/PCI-Website/) exists to advertise the group to potential members and record the group's activities.
 
 ## Maintenance
+
+### Temporary Change in Domain
+
+Currently, there have been some issues with the former domain name, https://pioneercapitalinvestments.com/, and thus we have transferred to the domain, 
+https://pci-grinnell.github.io/PCI-Website/ for the time being. We hope to get this resolved shortly. 
 
 ### A rant by Philip Kiely
 
@@ -18,7 +23,7 @@ Long, long ago in a galaxy far, far away, there was the web.grinnell.edu server.
 
 In 2016, some folks decided that we should no longer be the Student Endowment Investment Group and we took the name Pioneer Capital Investments. However, this made it so that you could no longer find our website when you searched for us, which was bad. I tried to fix it, it didn’t work. Also, you had to use Netbeans 8 to make code changes, and there was some PHP in there that I never touched.
 
-Now, the site runs on GitHub Pages off of this repository. The url is https://pioneercapitalinvestments.com, and the old web.grinnell.edu/groups/invest redirects to the new site. This site is totally static and uses Bootstrap 4 and other modern conveniences.
+Now, the site runs on GitHub Pages off of this repository. The url is https://pioneercapitalinvestments.com/, and the old web.grinnell.edu/groups/invest redirects to the new site. This site is totally static and uses Bootstrap 4 and other modern conveniences.
 
 There are a few accounts you need to know about to fully administer this website.
 
