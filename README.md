@@ -35,6 +35,7 @@ There are a few accounts you need to know about to fully administer this website
 
 * The portfolio tracker is through the group Yahoo Finance account, username pcigrinnellwebmaster@gmail.com.
 
+* A note from Simon Hodson: We thank Philip Kiely for his service, but he is no longer responsible for the website. The last person to work on the website was Mikey O'Connor, who can be contacted at oconnorm@grinnell.edu
 
 ## Copyright and License
 
